@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nupp {
+  background-color: green;
+  color: lightgray;
+}
+
+.nupp:hover {
+  height: 50px;
+}
+
+.nupp:active {
+  cursor:grab;
+}
+
+.sinine{
+  color: blue;
+}
+
+.sinine:hover{
+  font-size: 24px;
+}
+
+.roheline {
+  color:green;
+  border: 2px solid red;
+}
+
+.roheline:hover{
+  border-color: brown;
+}
+
+.pilt{
+  height: 300px;
+  float:right;
+}
+
+.pilt:hover{
+  border-radius: 100px;
+  opacity: 70%;
+}
+
+.tabel {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+
+td th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
