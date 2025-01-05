@@ -76,6 +76,8 @@ function Books() {
         const vastus = books.filter (book=> book[book.length-2]?.toUpperCase()=== "C")
         setBooks(vastus)
     }
+
+    // miks jutumärkides on suur "C" täht?
     
     const taastaAlgne = () => {
         setBooks(["The Great Gatsby", "War and Peace", "Hamlet", "Moby Dick", "Beauty and the Beast", "Misery"])
