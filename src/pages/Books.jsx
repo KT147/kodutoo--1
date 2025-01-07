@@ -33,6 +33,12 @@ function Books() {
         setBooks(vastus);
     }
 
+   // const sonadeArv = () => {
+       // const vastus = [...books].sort((a, b) => {a.split(' ').length-b.split(' ').length
+       // setBooks(vastus);
+    ///---> lihtsustatud versioon
+
+
     const eelviimaneTaht = () => {
         const vastus = [...books].sort((a, b) => {
             // Eelviimase tähe leidmine igast raamatu pealkirjast
@@ -44,6 +50,11 @@ function Books() {
         });
         setBooks(vastus);
     }
+
+    //const sorteeriEelviimaneT2ht = () => {
+       // const vastus = books.toSorted((a, b) => a[a.length - 2].localeCompare(b[b.length - 2]));
+       // setBooks(vastus);
+     // }  --> Teine lahendus
 
     const thegaAlgavad = () => {
         const vastus = books.filter(book => book.startsWith("The"))
